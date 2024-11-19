@@ -5,8 +5,11 @@ import 'package:twilio_flutter/twilio_flutter.dart';
 import 'package:http/http.dart' as http;
 // Initialize Twilio
 final twilioFlutter = TwilioFlutter(
+  accountSid: 'AC655a82471fb07e0076281ba18e252cbf', // Replace with your Account SID
+  authToken: '7e2bfd52cc9464025fec90dd786f10c5', // Replace with your Auth Token
+  twilioNumber: '+918769085261'
 
-
+  // : 'VA4ca04d1e5b3e7b73c514c711479f56a4',// Replace with your Verification Service Id
 );
 
 // Function to send OTP
